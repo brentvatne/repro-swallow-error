@@ -1,8 +1,6 @@
-# [New Architecture Example](https://reactnative.dev/docs/the-new-architecture/landing-page)
+# repro
 
-## 🚀 How to use
-
-> `npx create-expo-app@latest -e with-new-arch`
-
-- Install packages with `yarn` or `npm install`.
-- Run `npx expo run:ios` and/or `npx expo run:android`. Requires native toolchains to be installed.
+- Clone the repo
+- Run yarn (I used yarn v1)
+- Run `yarn expo run:ios` or `yarn expo run:android` to compile and run
+- Once the app is running successfully, open App.js and look at the comments. Uncomment the line that says `// hello` to repro.
